@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 31.73%;
+  right: 59.2%;
+  top: 35.18%;
+  bottom: 59.87%;
+
+  background: hsla(122, 39%, 49%, 1);
+}
+button {
+  box-sizing: border-box;
+
+  background: hsla(122, 39%, 49%, 1);
+}
+.popUpVis {
+  /* visibility: hidden; */
+
+  border: 1px solid black;
+  width: 40%;
+  height: 40%;
+  background-color: blue;
+  position: absolute;
+}
+
+.popUpHidden {
+  visibility: hidden;
+
+  border: 1px solid black;
+  width: 40%;
+  height: 40%;
+  background-color: blue;
+}
+.close {
+  background-color: blue;
+  color: red;
+}
